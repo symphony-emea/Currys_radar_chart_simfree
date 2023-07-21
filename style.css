@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    margin: auto;
+    padding: 0 46px;
+}
+
+#myChart{
+    width: 100vh;
+}
