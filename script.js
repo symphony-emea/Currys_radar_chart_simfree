@@ -10,6 +10,7 @@ const data = {
         'P6a',
         'P7',
         'P7 Pro',
+        'P7a',
         'Galaxy A34 5G',
         'Galaxy A54 5G',
         'S23',
@@ -17,12 +18,11 @@ const data = {
         'S23+',
         'Z Flip4',
         'Z Fold4',
-
     ],
     datasets: [
         {
             label: 'DCD',
-            data: [100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 0, 100, 100, 100],
+            data: [49, 47, 45, 48, 66, 91, 85, 71, 48, 55, 42, 27, 19, 22, 29, 23],
             // fill: true,
             backgroundColor: 'rgba(255, 99, 132, 0.2)',
             borderColor: 'rgb(255, 99, 132)',
@@ -33,7 +33,7 @@ const data = {
         },
         {
             label: 'CB',
-            data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 39, 9, 16, 14, 10, 17],
             // fill: true,
             backgroundColor: 'rgba(54, 162, 235, 0.2)',
             borderColor: 'rgb(54, 162, 235)',
@@ -44,7 +44,7 @@ const data = {
         },
         {
             label: 'TIB',
-            data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            data: [39, 41, 44, 39, 19, 0, 3, 19, 45, 7, 4, 30, 33, 29, 55, 55],
             // fill: true,
             backgroundColor: 'rgba(255, 206, 86, 0.2)',
             borderColor: 'rgb(255, 206, 86)',
@@ -55,7 +55,7 @@ const data = {
         },
         {
             label: 'GC',
-            data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            data: [13, 12, 11, 13, 16, 9, 12, 9, 7, 13, 15, 34, 32, 35, 6, 5],
             // fill: true,
             backgroundColor: 'rgba(75, 192, 192, 0.2)',
             borderColor: 'rgb(75, 192, 192)',
@@ -95,3 +95,4 @@ new Chart(ctx, {
         }
     }
 });
+
