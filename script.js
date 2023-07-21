@@ -2,22 +2,22 @@ const ctx = document.getElementById('myChart');
 
 const data = {
     labels: [
-        'i14',
-        'i14 Plus',
-        'i14 Pro',
-        'i14 Pro Max',
-        'iSE (2022)',
-        'P6a',
-        'P7',
-        'P7 Pro',
-        'P7a',
-        'Galaxy A34 5G',
-        'Galaxy A54 5G',
-        'S23',
-        'S23 Ultra',
-        'S23+',
-        'Z Flip4',
-        'Z Fold4',
+        'Apple iPhone 14',
+        'Apple iPhone 14 Plus',
+        'Apple iPhone 14 Pro',
+        'Apple iPhone 14 Pro Max',
+        'Apple iPhone SE (2022)',
+        'Google Pixel 6a',
+        'Google Pixel 7',
+        'Google Pixel 7 Pro',
+        'Google Pixel 7a',
+        'Samsung Galaxy A34 5G',
+        'Samsung Galaxy A54 5G',
+        'Samsung Galaxy S23',
+        'Samsung Galaxy S23 Ultra',
+        'Samsung Galaxy S23+',
+        'Samsung Galaxy Z Flip4',
+        'Samsung Galaxy Z Fold4',
     ],
     datasets: [
         {
@@ -72,6 +72,8 @@ new Chart(ctx, {
     type: 'radar',
     data: data,
     options: {
+        responsive: false,
+        maintainAspectRatio: false,
         elements: {
             line: {
                 borderWidth: 1,
@@ -88,7 +90,7 @@ new Chart(ctx, {
                     callback: function (value, index, values) {
                         return value + '%';
                     },
-                    max: 100,
+                    max: 200,
                     beginAtZero: true,
                 }
             }
